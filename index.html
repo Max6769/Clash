@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Clash-Lite — Improved</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="mainMenu" class="menu overlay">
+    <div class="menuCard">
+      <h1>Clash‑Lite</h1>
+      <div class="menuButtons">
+        <button id="btnDeckBuilder">Deck Builder</button>
+        <button id="btnQuickPlay">Quick Battle</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="gameArea">
+    <canvas id="game" width="1280" height="720"></canvas>
+
+    <!-- bottom UI: deck hand and elixir bar similar to Clash Royale layout -->
+    <div class="bottomUI">
+      <div class="deckHand" id="hand"></div>
+      <div class="elixirRow">
+        <div class="elixirDrop"><div class="dropInner"></div></div>
+        <div class="elixirNum" id="elixirNum">10</div>
+        <div class="elixirBarWrap">
+          <div class="elixirBar" id="elixirBar"><div class="elixirFill" id="elixirFill"></div></div>
+          <div class="elixirText">Max: 10</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
