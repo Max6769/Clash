@@ -1,0 +1,35 @@
+:root{
+  --bg:#071022; --panel:#0b1220; --accent:#ffcc33; --muted:#9aa4b2; --card:#102033; --pink:#ff4fb3;
+}
+*{box-sizing:border-box;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial}
+body{margin:0;background:linear-gradient(180deg,#071021 0%, #081428 100%);color:#e6eef6;display:flex;flex-direction:column;min-height:100vh}
+header{padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+.hud{display:flex;gap:12px;align-items:center}
+.elixir-top-right{position:relative;display:flex;align-items:center;gap:6px;background:transparent;padding:4px 8px;border-radius:20px}
+.elixir-top-right .drop{width:26px;height:26px;border-radius:50% 50% 50% 50%/60% 60% 40% 40%;background:linear-gradient(180deg,var(--pink),#ff2e8a);box-shadow:0 6px 12px rgba(255,79,179,0.25)}
+.elixir-top-right #elixirText{font-weight:700;color:#ffd6ee}
+.timer{font-size:14px;color:var(--muted)}
+.enemy-elixir{font-size:13px;color:var(--muted)}
+
+main{display:flex;gap:12px;padding:12px;align-items:flex-start}
+.board{flex:1;position:relative}
+canvas{background:linear-gradient(180deg,#0e2338 0%, #12304a 100%);border-radius:12px;box-shadow:0 12px 30px rgba(2,6,23,0.6);display:block;margin:auto}
+.placementHint{position:absolute;left:12px;bottom:12px;color:var(--muted);font-size:13px}
+
+.controls{width:360px;display:flex;flex-direction:column;gap:12px}
+.hand{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:center;padding:8px}
+.card{width:84px;height:110px;background:linear-gradient(180deg,#0f2436,#0b2030);border-radius:12px;padding:8px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;border:2px solid transparent;box-shadow:0 6px 18px rgba(0,0,0,0.5)}
+.card.small{width:72px;height:92px}
+.card.disabled{opacity:0.45;cursor:not-allowed}
+.card .title{font-size:12px;text-transform:capitalize}
+.card .cost{font-weight:700;background:#031020;padding:4px;border-radius:8px;text-align:center;color:#fff}
+.controlsButtons{display:flex;gap:8px;justify-content:center}
+.log{height:200px;overflow:auto;background:rgba(255,255,255,0.02);padding:8px;border-radius:8px;color:var(--muted);font-size:13px}
+
+.overlay{position:fixed;inset:0;background:linear-gradient(rgba(2,6,23,0.7),rgba(2,6,23,0.6));display:flex;align-items:center;justify-content:center;z-index:50}
+.menuCard{background:linear-gradient(180deg,#0b1220,#07101a);padding:18px;border-radius:12px;width:90%;max-width:980px;color:#eaf6ff}
+.collection{display:flex;gap:8px;flex-wrap:wrap;max-height:220px;overflow:auto;padding:8px;background:rgba(255,255,255,0.01);border-radius:8px}
+.selectedDeck{display:flex;gap:8px;flex-wrap:wrap;padding:8px;background:rgba(255,255,255,0.01);border-radius:8px;min-height:56px}
+.muted{color:var(--muted);font-size:12px}
+.menuButtons{display:flex;gap:8px;justify-content:flex-end;margin-top:8px}
+footer{padding:8px 20px;color:var(--muted);font-size:13px;margin-top:auto}
