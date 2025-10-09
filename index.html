@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Clash‑Lite Royale — Final</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="mainMenu" class="overlay mainMenu">
+    <div class="menuCard royale">
+      <div class="titleRow"><div class="logo">⚔️ Clash‑Lite</div></div>
+      <div class="arenaPreview"><div class="arena">ARENA</div></div>
+      <div class="menuActions"><button id="btnQuickPlay" class="primary">Quick Battle</button></div>
+    </div>
+  </div>
+
+  <header class="gameHeader">
+    <div class="leftTitle">Clash‑Lite</div>
+    <div class="rightHud"><div id="timerDisplay" class="timer">3:00</div></div>
+  </header>
+
+  <main class="gameMain">
+    <section class="boardWrap">
+      <canvas id="game" width="1280" height="720"></canvas>
+      <div class="deckDuringGame" id="deckDuringGame"></div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="elixirBarWrap">
+        <div class="elixirRow">
+          <div class="dropIcon" id="dropIcon"></div>
+          <div class="elixirCount" id="elixirCount">0</div>
+        </div>
+        <div class="elixirBar" id="elixirBar"></div>
+        <div class="elixirMax">Max: 10</div>
+      </div>
+      <div id="hand" class="hand"></div>
+      <div class="controls"><button id="btnRotate">Rotate</button><div id="log" class="log"></div></div>
+    </aside>
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
