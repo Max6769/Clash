@@ -1,0 +1,15 @@
+:root{
+  --bg: #0f1724;
+  --panel: #0b1220;
+  --accent: #ffcc33;
+  --muted: #9aa4b2;
+}
+*{box-sizing:border-box;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial}
+body{margin:0;background:linear-gradient(180deg,#071021 0%, #0b1522 100%);color:#e6eef6;display:flex;flex-direction:column;min-height:100vh}
+header{padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+.hud{display:flex;gap:12px;align-items:center}
+button{background:var(--accent);border:none;padding:8px 12px;border-radius:8px;cursor:pointer}
+main{display:flex;gap:12px;padding:12px}
+canvas{background:linear-gradient(180deg,#6aa6ff22,#1b2430);border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.6)}
+#log{width:240px;max-height:480px;overflow:auto;background:rgba(255,255,255,0.02);padding:8px;border-radius:8px;color:var(--muted)}
+footer{padding:8px 20px;color:var(--muted);font-size:13px;margin-top:auto}
