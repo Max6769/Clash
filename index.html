@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Clash‑Lite: Colosseum</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="menu" class="menuScreen">
+      <div class="menuCard redgold">
+        <h1>Colosseum — Clash‑Lite</h1>
+        <p class="subtitle">Red & Gold Arena • Rebuilt from scratch</p>
+        <div class="menuActions">
+          <button id="btnPlay" class="primary">Quick Battle</button>
+          <button id="btnDeck" class="secondary">Deck Maker</button>
+          <button id="btnDemoAI" class="secondary">Run AI Demo</button>
+        </div>
+        <p class="hint">No external files: deck stored in browser. Icons included.</p>
+      </div>
+    </div>
+
+    <div id="gameContainer" class="hidden">
+      <canvas id="arena" width="1280" height="720"></canvas>
+
+      <div id="ui">
+        <div id="leftPanel">
+          <h3>Cards</h3>
+          <div id="cardPool"></div>
+        </div>
+
+        <div id="rightPanel">
+          <h3>Your Deck</h3>
+          <div id="deckSlots"></div>
+          <div class="deckControls">
+            <button id="btnClear">Clear Deck</button>
+            <button id="btnStart">Start Match</button>
+          </div>
+        </div>
+
+        <div id="bottomBar">
+          <div id="handArea"></div>
+          <div id="elixirArea">
+            <div id="elixirValue">0</div>
+            <div id="elixirBar"><div id="elixirFill"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>

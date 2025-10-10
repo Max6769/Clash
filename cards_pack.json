@@ -1,0 +1,93 @@
+{
+  "cards": [
+    {
+      "id": "swordie",
+      "name": "Swordie",
+      "cost": 3,
+      "hp": 80,
+      "atk": 14,
+      "speed": 60,
+      "size": 12,
+      "type": "melee",
+      "desc": "Balanced frontline fighter."
+    },
+    {
+      "id": "bowman",
+      "name": "Bowman",
+      "cost": 3,
+      "hp": 50,
+      "atk": 12,
+      "speed": 80,
+      "size": 10,
+      "type": "ranged",
+      "desc": "Shoots from distance."
+    },
+    {
+      "id": "heavy",
+      "name": "Heavy",
+      "cost": 6,
+      "hp": 220,
+      "atk": 30,
+      "speed": 28,
+      "size": 20,
+      "type": "melee",
+      "desc": "Heavy tank that soaks damage."
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "cost": 2,
+      "hp": 36,
+      "atk": 8,
+      "speed": 140,
+      "size": 9,
+      "type": "ranged",
+      "desc": "Fast skirmisher."
+    },
+    {
+      "id": "fireorb",
+      "name": "Fire Orb",
+      "cost": 4,
+      "hp": 1,
+      "atk": 60,
+      "radius": 70,
+      "type": "spell",
+      "desc": "Area damage spell."
+    },
+    {
+      "id": "healer",
+      "name": "Healer",
+      "cost": 5,
+      "hp": 60,
+      "atk": 0,
+      "heal": 10,
+      "radius": 50,
+      "speed": 40,
+      "size": 10,
+      "type": "support",
+      "desc": "Heals nearby allies."
+    },
+    {
+      "id": "miner",
+      "name": "Miner",
+      "cost": 3,
+      "hp": 60,
+      "atk": 10,
+      "speed": 90,
+      "size": 10,
+      "type": "special",
+      "desc": "Appears at target location."
+    },
+    {
+      "id": "colossus",
+      "name": "Colossus",
+      "cost": 8,
+      "hp": 420,
+      "atk": 46,
+      "speed": 22,
+      "size": 26,
+      "type": "melee",
+      "desc": "Massive push unit."
+    }
+  ]
+}
