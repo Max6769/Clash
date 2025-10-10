@@ -1,0 +1,83 @@
+{
+  "soldier": {
+    "name": "Soldier",
+    "cost": 3,
+    "hp": 60,
+    "atk": 12,
+    "size": 12,
+    "speed": 60,
+    "type": "troop",
+    "desc": "Reliable melee unit."
+  },
+  "archer": {
+    "name": "Archer",
+    "cost": 3,
+    "hp": 40,
+    "atk": 10,
+    "size": 10,
+    "speed": 70,
+    "type": "troop",
+    "desc": "Ranged attacker."
+  },
+  "tank": {
+    "name": "Tank",
+    "cost": 6,
+    "hp": 180,
+    "atk": 22,
+    "size": 18,
+    "speed": 30,
+    "type": "troop",
+    "desc": "Slow heavy hitter."
+  },
+  "sprinter": {
+    "name": "Sprinter",
+    "cost": 2,
+    "hp": 30,
+    "atk": 6,
+    "size": 9,
+    "speed": 120,
+    "type": "troop",
+    "desc": "Very fast glass cannon."
+  },
+  "fireball": {
+    "name": "Fireball",
+    "cost": 4,
+    "hp": 1,
+    "atk": 40,
+    "radius": 60,
+    "type": "spell",
+    "desc": "Deal area damage."
+  },
+  "healer": {
+    "name": "Healer",
+    "cost": 5,
+    "hp": 50,
+    "atk": 0,
+    "heal": 8,
+    "size": 10,
+    "speed": 40,
+    "type": "troop",
+    "desc": "Heals nearby allies."
+  },
+  "miner": {
+    "name": "Miner",
+    "cost": 3,
+    "hp": 50,
+    "atk": 8,
+    "size": 9,
+    "speed": 80,
+    "type": "troop",
+    "desc": "Burrows and appears on target."
+  },
+  "golem": {
+    "name": "Golem",
+    "cost": 8,
+    "hp": 400,
+    "atk": 40,
+    "size": 26,
+    "speed": 20,
+    "type": "troop",
+    "win": true,
+    "desc": "Massive bridge pusher."
+  }
+}
