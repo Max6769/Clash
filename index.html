@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/></head>
+<title>Clash-Lite Colosseum v2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu" class="menuScreen">
+    <div class="menuCard">
+      <h1>Clash‑Lite — Colosseum v2</h1>
+      <p class="subtitle">Red & Gold • Improved Elixir, Troop Placement, Towers & More Units</p>
+      <div class="menuActions">
+        <button id="btnPlay" class="primary">Quick Battle</button>
+        <button id="btnDeck" class="secondary">Deck Maker</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="gameContainer" class="hidden">
+    <canvas id="arena" width="1280" height="720"></canvas>
+    <div id="ui">
+      <div id="leftPanel"><h3>Cards</h3><div id="cardPool"></div></div>
+      <div id="rightPanel"><h3>Your Deck</h3><div id="deckSlots"></div>
+        <div class="deckControls"><button id="btnClear">Clear</button><button id="btnStart">Start</button></div></div>
+      <div id="bottomBar">
+        <div id="handArea"></div>
+        <div id="elixirWrap"><div id="elixirMeter"><div id="elixirFill"></div></div><div id="elixirGlow"></div><div id="elixirText"><span id="elixirValue">0</span>/<span id="elixirMax">10</span></div></div>
+      </div>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>

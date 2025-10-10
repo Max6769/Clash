@@ -1,0 +1,115 @@
+{
+  "cards": [
+    {
+      "id": "gladius",
+      "name": "Gladius",
+      "cost": 3,
+      "hp": 90,
+      "atk": 16,
+      "speed": 62,
+      "size": 12,
+      "type": "melee",
+      "desc": "Skilled gladiator, balanced."
+    },
+    {
+      "id": "pilum",
+      "name": "Pilum",
+      "cost": 3,
+      "hp": 48,
+      "atk": 12,
+      "speed": 78,
+      "size": 10,
+      "type": "ranged",
+      "desc": "Javelin thrower with reach."
+    },
+    {
+      "id": "centurion",
+      "name": "Centurion",
+      "cost": 5,
+      "hp": 170,
+      "atk": 28,
+      "speed": 36,
+      "size": 18,
+      "type": "melee",
+      "desc": "Leader unit, strong armor."
+    },
+    {
+      "id": "velox",
+      "name": "Velox",
+      "cost": 2,
+      "hp": 34,
+      "atk": 8,
+      "speed": 150,
+      "size": 9,
+      "type": "fast",
+      "desc": "Fast skirmisher."
+    },
+    {
+      "id": "pyre",
+      "name": "Pyre Orb",
+      "cost": 4,
+      "hp": 1,
+      "atk": 70,
+      "radius": 70,
+      "type": "spell",
+      "desc": "Explosive area damage."
+    },
+    {
+      "id": "medic",
+      "name": "Medic",
+      "cost": 5,
+      "hp": 70,
+      "atk": 0,
+      "heal": 10,
+      "radius": 54,
+      "speed": 40,
+      "size": 10,
+      "type": "support",
+      "desc": "Heals nearby allies."
+    },
+    {
+      "id": "sapper",
+      "name": "Sapper",
+      "cost": 3,
+      "hp": 60,
+      "atk": 12,
+      "speed": 88,
+      "size": 10,
+      "type": "special",
+      "desc": "Burrows to spot and attack."
+    },
+    {
+      "id": "colossus",
+      "name": "Colossus",
+      "cost": 8,
+      "hp": 420,
+      "atk": 48,
+      "speed": 20,
+      "size": 26,
+      "type": "melee",
+      "desc": "Massive push unit."
+    },
+    {
+      "id": "lion",
+      "name": "Arena Lion",
+      "cost": 4,
+      "hp": 120,
+      "atk": 22,
+      "speed": 52,
+      "size": 14,
+      "type": "melee",
+      "desc": "Ferocious beast with charge."
+    },
+    {
+      "id": "ballista",
+      "name": "Ballista",
+      "cost": 6,
+      "hp": 160,
+      "atk": 36,
+      "speed": 16,
+      "size": 20,
+      "type": "ranged",
+      "desc": "Long-range siege unit."
+    }
+  ]
+}
