@@ -1,0 +1,233 @@
+{
+  "cards": [
+    {
+      "id": "knight",
+      "name": "Knight",
+      "type": "troop",
+      "rarity": "common",
+      "cost": 3,
+      "hp": 420,
+      "dmg": 48,
+      "atk_speed": 1.1,
+      "range": 18,
+      "move_speed": 80,
+      "target": "ground",
+      "target_priority": "nearest",
+      "deploy_time": 0.2,
+      "lifetime": null,
+      "special": []
+    },
+    {
+      "id": "archer",
+      "name": "Archer",
+      "type": "troop",
+      "rarity": "common",
+      "cost": 3,
+      "hp": 160,
+      "dmg": 36,
+      "atk_speed": 1.0,
+      "range": 140,
+      "move_speed": 90,
+      "target": "air_ground",
+      "target_priority": "nearest",
+      "deploy_time": 0.2,
+      "lifetime": null,
+      "special": []
+    },
+    {
+      "id": "goblin",
+      "name": "Goblin",
+      "type": "troop",
+      "rarity": "common",
+      "cost": 2,
+      "hp": 120,
+      "dmg": 40,
+      "atk_speed": 0.8,
+      "range": 12,
+      "move_speed": 140,
+      "target": "ground",
+      "target_priority": "nearest",
+      "deploy_time": 0.15,
+      "lifetime": null,
+      "special": [
+        "fast"
+      ]
+    },
+    {
+      "id": "giant",
+      "name": "Giant",
+      "type": "troop",
+      "rarity": "rare",
+      "cost": 5,
+      "hp": 1200,
+      "dmg": 90,
+      "atk_speed": 1.2,
+      "range": 22,
+      "move_speed": 38,
+      "target": "building",
+      "target_priority": "building_first",
+      "deploy_time": 0.6,
+      "lifetime": null,
+      "special": [
+        "tank"
+      ]
+    },
+    {
+      "id": "miniPekka",
+      "name": "Mini P.",
+      "type": "troop",
+      "rarity": "rare",
+      "cost": 4,
+      "hp": 620,
+      "dmg": 160,
+      "atk_speed": 1.4,
+      "range": 18,
+      "move_speed": 70,
+      "target": "ground",
+      "target_priority": "nearest",
+      "deploy_time": 0.3,
+      "lifetime": null,
+      "special": [
+        "high_single_dmg"
+      ]
+    },
+    {
+      "id": "cannon",
+      "name": "Cannon",
+      "type": "building",
+      "rarity": "common",
+      "cost": 3,
+      "hp": 700,
+      "dmg": 75,
+      "atk_speed": 1.0,
+      "range": 130,
+      "move_speed": 0,
+      "target": "ground",
+      "target_priority": "nearest",
+      "deploy_time": 0.5,
+      "lifetime": 45,
+      "special": [
+        "building"
+      ]
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "type": "troop",
+      "rarity": "common",
+      "cost": 1,
+      "hp": 70,
+      "dmg": 20,
+      "atk_speed": 0.6,
+      "range": 10,
+      "move_speed": 120,
+      "target": "ground",
+      "target_priority": "nearest",
+      "deploy_time": 0.1,
+      "lifetime": 12,
+      "special": [
+        "swarm",
+        "spawn_on_death:goblin"
+      ]
+    },
+    {
+      "id": "fireball",
+      "name": "Fireball",
+      "type": "spell",
+      "rarity": "rare",
+      "cost": 4,
+      "hp": 0,
+      "dmg": 220,
+      "atk_speed": 0,
+      "range": 0,
+      "move_speed": 0,
+      "target": "area",
+      "target_priority": "n/a",
+      "deploy_time": 0,
+      "lifetime": null,
+      "special": [
+        "area_damage"
+      ],
+      "radius": 80
+    },
+    {
+      "id": "freeze",
+      "name": "Freeze",
+      "type": "spell",
+      "rarity": "epic",
+      "cost": 4,
+      "hp": 0,
+      "dmg": 0,
+      "atk_speed": 0,
+      "range": 0,
+      "move_speed": 0,
+      "target": "area",
+      "target_priority": "n/a",
+      "deploy_time": 0,
+      "lifetime": 3,
+      "special": [
+        "freeze"
+      ],
+      "radius": 80
+    },
+    {
+      "id": "zap",
+      "name": "Zap",
+      "type": "spell",
+      "rarity": "common",
+      "cost": 2,
+      "hp": 0,
+      "dmg": 60,
+      "atk_speed": 0,
+      "range": 0,
+      "move_speed": 0,
+      "target": "area",
+      "target_priority": "n/a",
+      "deploy_time": 0,
+      "lifetime": null,
+      "special": [
+        "stun:0.6"
+      ],
+      "radius": 40
+    },
+    {
+      "id": "bat",
+      "name": "Bat",
+      "type": "troop",
+      "rarity": "epic",
+      "cost": 2,
+      "hp": 80,
+      "dmg": 28,
+      "atk_speed": 0.5,
+      "range": 10,
+      "move_speed": 140,
+      "target": "air_ground",
+      "target_priority": "nearest",
+      "deploy_time": 0.1,
+      "lifetime": 10,
+      "special": [
+        "flying"
+      ]
+    },
+    {
+      "id": "pekka",
+      "name": "PEKKA",
+      "type": "troop",
+      "rarity": "legendary",
+      "cost": 7,
+      "hp": 2200,
+      "dmg": 300,
+      "atk_speed": 1.8,
+      "range": 18,
+      "move_speed": 40,
+      "target": "ground",
+      "target_priority": "nearest",
+      "deploy_time": 1.0,
+      "lifetime": null,
+      "special": [
+        "heavy",
+        "knockback:30"
+      ]
+    }
+  ]
+}
