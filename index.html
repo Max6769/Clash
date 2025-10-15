@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini Royale v2 — Offline Prototype</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Mini Royale <span class="muted">v2 — Offline</span></h1>
+      <div class="meta">
+        <div id="mode">Mode: Casual (Offline)</div>
+        <div id="timer">01:00</div>
+      </div>
+    </header>
+
+    <main>
+      <canvas id="game" width="1000" height="460"></canvas>
+
+      <aside class="sidebar">
+        <section class="panel">
+          <h3>Player</h3>
+          <div>Elixir: <span id="elixir">0</span> / 10</div>
+          <div>Elixir Rate: <span id="elixir-rate">1.0/s</span></div>
+          <div>Seed: <input id="seed" /></div>
+          <div class="controls">
+            <button id="restart">Restart</button>
+            <button id="apply-seed">Apply Seed</button>
+            <label title="Toggle prettier effects"><input type="checkbox" id="fancy" checked> Fancy VFX</label>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h3>Deck (click to select)</h3>
+          <div id="deck" class="deck"></div>
+        </section>
+
+        <section class="panel small">
+          <h3>Logs</h3>
+          <div id="log" class="log"></div>
+        </section>
+
+        <section class="panel small">
+          <h3>Notes</h3>
+          <div class="note">Click a card, then click a lane (top/bottom) on the arena to deploy. Spells are cast at lane center. Set seed for reproducible matches.</div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <div>Built as an offline, deterministic prototype — includes rarities, levels, targeting, spells, buildings, elixir phases (double/triple), and AI.</div>
+    </footer>
+  </div>
+
+  <script id="cards-json" type="application/json"></script>
+  <script src="main.js"></script>
+</body>
+</html>
