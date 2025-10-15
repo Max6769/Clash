@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini Royale — Full Offline</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Mini Royale — Full Offline Prototype</h1>
+      <div class="controls">
+        <input id="seed" placeholder="Seed (optional)" />
+        <button id="restart">Restart Match</button>
+        <button id="export-replay">Export Replay</button>
+      </div>
+    </header>
+    <main>
+      <canvas id="game" width="1000" height="520"></canvas>
+      <aside class="sidebar">
+        <section class="panel">
+          <h3>Player</h3>
+          <div>Gold: <span id="gold">0</span></div>
+          <div>Gems: <span id="gems">0</span></div>
+          <div>Elixir: <span id="elixir">0</span></div>
+          <div>Phase: <span id="phase">normal</span></div>
+        </section>
+        <section class="panel">
+          <h3>Deck</h3>
+          <div id="deck" class="deck"></div>
+        </section>
+        <section class="panel">
+          <h3>Collection</h3>
+          <div id="collection" class="deck small"></div>
+        </section>
+        <section class="panel small">
+          <h3>Chests & Shop</h3>
+          <button id="open-chest">Open Free Chest (1h)</button>
+          <button id="buy-chest">Buy Large Chest (50 gems)</button>
+          <button id="open-latest-chest">Open Latest Chest</button>
+          <div id="shop" class="shop"></div>
+        </section>
+        <section class="panel small">
+          <h3>Logs</h3>
+          <div id="log" class="log"></div>
+        </section>
+      </aside>
+    </main>
+    <footer>
+      <div>Progression: cards can be upgraded using gold. Chests reward cards & gold. Replay exports match events.</div>
+    </footer>
+  </div>
+  <script id="cards-json" type="application/json"></script>
+  <script src="main.js"></script>
+</body>
+</html>
