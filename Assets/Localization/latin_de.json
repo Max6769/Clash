@@ -1,7 +1,0 @@
-{
-  "UI": {
-    "HEALTH": { "latin": "Vita", "de": "Leben" },
-    "AMMO": { "latin": "Pilulae", "de": "Munition" },
-    "PAUSE": { "latin": "Intermissio", "de": "Pause" }
-  }
-}
