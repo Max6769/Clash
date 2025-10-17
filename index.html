@@ -1,0 +1,54 @@
+<!doctype html>
+<main class="stage">
+<header>
+<h1>Gladius — Ludus Romanus</h1>
+<p class="subtitle">Defende famam tuam — Rolla tessera, vincere, et gloria!</p>
+</header>
+
+
+<section class="arena" aria-live="polite">
+<div class="combatant player">
+<div class="portrait">🛡️</div>
+<h2>Tu (Gladiator)</h2>
+<div class="hp">Salus: <span id="playerHp">100</span></div>
+</div>
+
+
+<div class="combat-log" id="log" tabindex="0">
+<strong>Acta:</strong>
+<ul id="events"></ul>
+</div>
+
+
+<div class="combatant enemy">
+<div class="portrait">🐺</div>
+<h2>Hostis (Lupus)</h2>
+<div class="hp">Salus: <span id="enemyHp">100</span></div>
+</div>
+</section>
+
+
+<section class="controls">
+<div class="dice">
+<div class="dice-face" id="diceFace">—</div>
+<button id="rollBtn">Rolla Tessera</button>
+</div>
+
+
+<div class="actions">
+<button id="attackBtn" disabled>Impeto</button>
+<button id="defendBtn" disabled>Defende</button>
+<button id="newBtn">Novum Ludum</button>
+</div>
+</section>
+
+
+<footer>
+<small>Design: A Roman flair — fonts from Google Fonts. Compatible with GitHub Pages.</small>
+</footer>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
